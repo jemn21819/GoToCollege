@@ -1,0 +1,89 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://www.holbertonschool.com/level2/holberton.css" rel="stylesheet">
+  <link href="styles.css" rel="stylesheet">
+  <script src="js/behavior.js"></script>
+
+  <title>Tweets</title>
+</head>
+
+
+<body class="works_on_smartphone">
+  <header>
+    <!-- This is the Be Social! partc-->
+    <div class="right">
+      <!-- facebook logo-->
+      <div id="fb-root"></div>
+      <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v7.0" nonce="4XYZ7oME"></script>
+      <div class="fb-share-button" data-href="https://developers.facebook.com/docs/plugins/" data-layout="button" data-size="small"><a target="_blank"
+          href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
+      <!--Twitter logo -->
+      <a href="https://twitter.com/GoToCollege3?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-screen-name="false" data-show-count="false">Follow @GoToCollege3</a>
+      <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
+
+    <!--This is the navigation bar-->
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="universidades.html">Universities</a></li>
+      <li><a href="tweets.html">Tweets</a></li>
+      <li><a href="contact_us.html">Contact Us</a></li>
+    </ul>
+  </header>
+
+  <main>
+    <!--This is the Twitter part-->
+    <div class="box1">
+      <article>
+        <h1>Tweets</h1>
+        <blockquote class="twitter-tweet">
+          <p lang="es" dir="ltr">Bienvenido a Go To College,
+            aquí podrás encontrar información actualizada sobre universidades y los distintos
+            procesos de admisión.
+          </p>
+          &mdash; Go To College (@GoToCollege3) <a href="https://twitter.com/GoToCollege3/status/1282019461097295873?ref_src=twsrc%5Etfw">July 11, 2020</a>
+        </blockquote>
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      </article>
+    </div>
+
+    <!-- This is the code to Disqus embed part-->
+    <div class="box2">
+      <aside>
+        <div id="disqus_thread"></div>
+        <script>
+          var disqus_config = function() {
+            this.page.url = 'http://18.234.50.218/index.html';
+            this.page.identifier = 'home';
+          };
+
+          (function() {
+            var d = document,
+              s = d.createElement('script');
+            s.src = 'https://gotocollege.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+          })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+      </aside>
+    </div>
+  </main>
+
+  <hr>
+  <!-- This is the footer -->
+  <div class="box3">
+    <footer>
+      Made by <a href="https://twitter.com/" target="_blank">JAIME MARTINEZ</a> for <a href="https://www.holbertonschool.com" target="_blank">Holberton School</a>.
+    </footer>
+  </div>
+
+</body>
+
+</html>
